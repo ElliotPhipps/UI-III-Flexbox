@@ -64,3 +64,250 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 0 auto;
+	width: 900px;
+}
+
+a {
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 14px;
+}
+
+nav {
+	/* padding: 40px 0 70px 0;
+    word-spacing: 50px; */
+    display:flex;
+    justify-content: space-evenly;  
+}
+
+nav a:first-child {
+	padding-left: 0;
+}
+
+.logo {
+	display: flex;
+	justify-content: end;
+	/* width: 50%; */
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-size: 75px;
+	display: flex;
+	/* margin-top: 60px; */
+}
+
+.circleimg {
+	display: flex;
+	/* justify-content: right; */
+}
+
+.headerwithbutton {
+	width: 420px;
+	justify-content: center;
+}
+
+.right {
+	width: 420px;
+	justify-content: right;
+}
+
+.getstarted {
+	display: flex;
+	/* flex-direction: row; */
+	/* background-color: white;
+	font-size: 18px;
+	padding: 3px 45px;
+	text-decoration: none;
+	border: 1px solid black;
+	margin: 0 auto;
+	font-family: 'Titillium Web'; */
+} 
+
+hr {
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 95%;
+	margin: 60px 0 0 0;
+	border: none;
+}
+
+.featuresabout {
+	display: flex;
+	/* flex-direction: row; */
+	/* justify-content: left; */
+	
+	/* width: 420px;
+	margin-bottom: 40px; */
+}
+
+/* .featuresabout section {
+	width: 50%;
+} */
+
+h2 {
+	font-size: 17px;
+	display: flex;
+	margin: 25px 0;
+}
+
+.serprovis {
+	display: flex;
+	width: 280px;
+	margin: 5px;
+}
+
+p {
+	line-height: 1.2;
+}
+
+footer {
+	text-align: center;
+	height: 100px;
+	padding: 20px;
+	font-size: 14px;
+}
+
+.hr2 {
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 95%;
+	margin: 40px 0 0 0;
+	border: none;
+}
+
+address {
+	line-height: 1.2;
+}
+
+.services-header-img {
+	display: flex;
+	margin-top: 25px;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+}
+
+hr {
+	width: 98%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.bigbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.digital {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	width: 48%;
+}
+
+.learn {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	border: 1px solid black;
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	width: 48%;
+}
+
+.bigbox2 {
+	display: flex;
+	justify-content: space-between;
+	/* flex-direction: column; */
+	margin-top: 25px;
+}
+
+.marketing {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	width: 48%;
+}
+
+.web {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	width: 48%;
+}
+
+.bigbox3 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ios {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	width: 48%;
+}
+
+.android {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	width: 48%;
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/* list-style-type: square; */
+}
+
+ul.a {
+	list-style-type: square;
+}
+
+.services-info-img {
+	display: flex;
+	/* align-content: right; */
+	/* max-width: 100%; */
+	/* flex-direction: column; */
+	/* justify-content: left; */
+}
+
+.footer {
+
+}
