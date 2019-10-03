@@ -77,8 +77,6 @@ a {
 }
 
 nav {
-	/* padding: 40px 0 70px 0;
-    word-spacing: 50px; */
     display:flex;
     justify-content: space-evenly;  
 }
@@ -90,7 +88,6 @@ nav a:first-child {
 .logo {
 	display: flex;
 	justify-content: end;
-	/* width: 50%; */
 }
 
 header {
@@ -100,12 +97,10 @@ header {
 h1 {
 	font-size: 75px;
 	display: flex;
-	/* margin-top: 60px; */
 }
 
 .circleimg {
 	display: flex;
-	/* justify-content: right; */
 }
 
 .headerwithbutton {
@@ -120,14 +115,6 @@ h1 {
 
 .getstarted {
 	display: flex;
-	/* flex-direction: row; */
-	/* background-color: white;
-	font-size: 18px;
-	padding: 3px 45px;
-	text-decoration: none;
-	border: 1px solid black;
-	margin: 0 auto;
-	font-family: 'Titillium Web'; */
 } 
 
 hr {
@@ -141,16 +128,7 @@ hr {
 
 .featuresabout {
 	display: flex;
-	/* flex-direction: row; */
-	/* justify-content: left; */
-	
-	/* width: 420px;
-	margin-bottom: 40px; */
 }
-
-/* .featuresabout section {
-	width: 50%;
-} */
 
 h2 {
 	font-size: 17px;
@@ -196,7 +174,6 @@ address {
 .services {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 }
 
 hr {
@@ -222,7 +199,6 @@ hr {
 .learn {
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
 	border: 1px solid black;
 }
 
@@ -238,7 +214,6 @@ hr {
 .bigbox2 {
 	display: flex;
 	justify-content: space-between;
-	/* flex-direction: column; */
 	margin-top: 25px;
 }
 
@@ -293,7 +268,6 @@ hr {
 	flex-direction: column;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	/* list-style-type: square; */
 }
 
 ul.a {
@@ -302,10 +276,6 @@ ul.a {
 
 .services-info-img {
 	display: flex;
-	/* align-content: right; */
-	/* max-width: 100%; */
-	/* flex-direction: column; */
-	/* justify-content: left; */
 }
 
 .footer {
